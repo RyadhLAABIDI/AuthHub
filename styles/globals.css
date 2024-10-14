@@ -1,0 +1,70 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #f8f9fa; 
+  color: #343a40; 
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+input {
+  transition: border-color 0.2s ease-in-out;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+
+button {
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    margin: 1rem;
+  }
+}
